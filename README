@@ -1,0 +1,22 @@
+This is a small demo project for 
+Sebastian Bergmann's template for PHP projects (1) based on the tutorial 
+"Setting up Jenkins for PHP Projects" (2)
+
+How can I use it?
+1. get a copy of it (git clone, download...)
+2. follow the explanations of the tutorial
+3. when configuring jenkins use this project as source
+
+It's not working? 
+- Is xdebug available to your php-cli? run "php -i" in the shell and look for xdebug
+- try to run the ant process standalone first in the shell
+  cd mydemo
+  ant
+- check out the output of ant, any file-not-found-messages or similar?
+
+Most helpful is the "console output" option in Jenkins by the way. Click on a build, it's in the right menu.
+
+(1): http://jenkins-php.org/
+(2): http://edorian.posterous.com/setting-up-jenkins-for-php-projects
+
+
